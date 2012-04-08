@@ -13,7 +13,6 @@
 		261B250F152D5C2B0036D8AE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 261B250D152D5C2B0036D8AE /* Credits.rtf */; };
 		261B2512152D5C2B0036D8AE /* CZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 261B2511152D5C2B0036D8AE /* CZAppDelegate.m */; };
 		261B2515152D5C2B0036D8AE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 261B2513152D5C2B0036D8AE /* MainMenu.xib */; };
-		261B251D152D65D40036D8AE /* CZBookController.m in Sources */ = {isa = PBXBuildFile; fileRef = 261B251C152D65D40036D8AE /* CZBookController.m */; };
 		261B2520152D836A0036D8AE /* CZBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 261B251F152D836A0036D8AE /* CZBook.m */; };
 /* End PBXBuildFile section */
 
@@ -31,10 +30,10 @@
 		261B2510152D5C2B0036D8AE /* CZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZAppDelegate.h; sourceTree = "<group>"; };
 		261B2511152D5C2B0036D8AE /* CZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZAppDelegate.m; sourceTree = "<group>"; };
 		261B2514152D5C2B0036D8AE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		261B251B152D65D40036D8AE /* CZBookController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CZBookController.h; path = ../CZBookController.h; sourceTree = "<group>"; };
-		261B251C152D65D40036D8AE /* CZBookController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CZBookController.m; path = ../CZBookController.m; sourceTree = "<group>"; };
 		261B251E152D836A0036D8AE /* CZBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZBook.h; sourceTree = "<group>"; };
 		261B251F152D836A0036D8AE /* CZBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZBook.m; sourceTree = "<group>"; };
+		26EDB243153176C400ABAEDB /* CZBookController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZBookController.h; sourceTree = "<group>"; };
+		26EDB244153176C400ABAEDB /* CZBookController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZBookController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,12 +87,12 @@
 		261B2504152D5C2B0036D8AE /* Book */ = {
 			isa = PBXGroup;
 			children = (
+				26EDB243153176C400ABAEDB /* CZBookController.h */,
+				26EDB244153176C400ABAEDB /* CZBookController.m */,
 				261B2510152D5C2B0036D8AE /* CZAppDelegate.h */,
 				261B2511152D5C2B0036D8AE /* CZAppDelegate.m */,
 				261B251E152D836A0036D8AE /* CZBook.h */,
 				261B251F152D836A0036D8AE /* CZBook.m */,
-				261B251B152D65D40036D8AE /* CZBookController.h */,
-				261B251C152D65D40036D8AE /* CZBookController.m */,
 				261B2513152D5C2B0036D8AE /* MainMenu.xib */,
 				261B2505152D5C2B0036D8AE /* Supporting Files */,
 			);
@@ -179,7 +178,6 @@
 			files = (
 				261B250B152D5C2B0036D8AE /* main.m in Sources */,
 				261B2512152D5C2B0036D8AE /* CZAppDelegate.m in Sources */,
-				261B251D152D65D40036D8AE /* CZBookController.m in Sources */,
 				261B2520152D836A0036D8AE /* CZBook.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
