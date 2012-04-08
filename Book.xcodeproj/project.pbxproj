@@ -13,6 +13,8 @@
 		261B250F152D5C2B0036D8AE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 261B250D152D5C2B0036D8AE /* Credits.rtf */; };
 		261B2512152D5C2B0036D8AE /* CZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 261B2511152D5C2B0036D8AE /* CZAppDelegate.m */; };
 		261B2515152D5C2B0036D8AE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 261B2513152D5C2B0036D8AE /* MainMenu.xib */; };
+		261B251D152D65D40036D8AE /* CZBookController.m in Sources */ = {isa = PBXBuildFile; fileRef = 261B251C152D65D40036D8AE /* CZBookController.m */; };
+		261B2520152D836A0036D8AE /* CZBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 261B251F152D836A0036D8AE /* CZBook.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +23,18 @@
 		261B2501152D5C2B0036D8AE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		261B2502152D5C2B0036D8AE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		261B2503152D5C2B0036D8AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		261B2506152D5C2B0036D8AE /* Book-Info.plist */ = {isa = PBXFileReference; path = "Book-Info.plist"; sourceTree = "<group>"; };
+		261B2506152D5C2B0036D8AE /* Book-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Book-Info.plist"; sourceTree = "<group>"; };
 		261B2508152D5C2B0036D8AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		261B250A152D5C2B0036D8AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		261B250C152D5C2B0036D8AE /* Book-Prefix.pch */ = {isa = PBXFileReference; path = "Book-Prefix.pch"; sourceTree = "<group>"; };
+		261B250C152D5C2B0036D8AE /* Book-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Book-Prefix.pch"; sourceTree = "<group>"; };
 		261B250E152D5C2B0036D8AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		261B2510152D5C2B0036D8AE /* CZAppDelegate.h */ = {isa = PBXFileReference; path = CZAppDelegate.h; sourceTree = "<group>"; };
+		261B2510152D5C2B0036D8AE /* CZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZAppDelegate.h; sourceTree = "<group>"; };
 		261B2511152D5C2B0036D8AE /* CZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZAppDelegate.m; sourceTree = "<group>"; };
 		261B2514152D5C2B0036D8AE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		261B251B152D65D40036D8AE /* CZBookController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CZBookController.h; path = ../CZBookController.h; sourceTree = "<group>"; };
+		261B251C152D65D40036D8AE /* CZBookController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CZBookController.m; path = ../CZBookController.m; sourceTree = "<group>"; };
+		261B251E152D836A0036D8AE /* CZBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZBook.h; sourceTree = "<group>"; };
+		261B251F152D836A0036D8AE /* CZBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZBook.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,10 @@
 			children = (
 				261B2510152D5C2B0036D8AE /* CZAppDelegate.h */,
 				261B2511152D5C2B0036D8AE /* CZAppDelegate.m */,
+				261B251E152D836A0036D8AE /* CZBook.h */,
+				261B251F152D836A0036D8AE /* CZBook.m */,
+				261B251B152D65D40036D8AE /* CZBookController.h */,
+				261B251C152D65D40036D8AE /* CZBookController.m */,
 				261B2513152D5C2B0036D8AE /* MainMenu.xib */,
 				261B2505152D5C2B0036D8AE /* Supporting Files */,
 			);
@@ -130,6 +140,7 @@
 			attributes = {
 				CLASSPREFIX = CZ;
 				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Coders Zone";
 			};
 			buildConfigurationList = 261B24F4152D5C2A0036D8AE /* Build configuration list for PBXProject "Book" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -168,6 +179,8 @@
 			files = (
 				261B250B152D5C2B0036D8AE /* main.m in Sources */,
 				261B2512152D5C2B0036D8AE /* CZAppDelegate.m in Sources */,
+				261B251D152D65D40036D8AE /* CZBookController.m in Sources */,
+				261B2520152D836A0036D8AE /* CZBook.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +300,7 @@
 				261B251A152D5C2B0036D8AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
